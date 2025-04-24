@@ -1,4 +1,6 @@
-# Микросервис обработки сообщений - Практическое задание
+# Микросервис обработки сообщений
+
+**Важно!** Сделайте fork в свой аккаунт и когда будете готовы сдавать задание - создайте MR в этот репозиторий
 
 ## Описание задания
 
@@ -225,10 +227,3 @@ README.md                     # Документация
 3. **Kafka Producer**:
    - Реализуйте отправку сообщений в топик `output-messages`
    - Добавьте обработку ошибок при отправке
-
-## Дополнительные ресурсы
-* [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/)
-* [Spring Kafka Documentation](https://docs.spring.io/spring-kafka/reference/html/)
-* [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
-* [Spring Data JPA Documentation](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
-* [Docker Compose Documentation](https://docs.docker.com/compose/)
