@@ -17,6 +17,11 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    set("testcontainers.version", "1.20.0")
+}
+
+
 dependencies {
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
@@ -30,6 +35,22 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
     runtimeOnly("org.postgresql:postgresql")
+
+    //Swagger
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0")
+
+    //Validation
+    implementation("org.springframework.boot:spring-boot-starter-validation")
+
+
+    //Миграции
+    implementation("org.flywaydb:flyway-core:11.2.0")
+    runtimeOnly("org.flywaydb:flyway-database-postgresql:11.2.0")
+
+    testImplementation("org.springframework.boot:spring-boot-starter-test")
+    testImplementation("org.testcontainers:junit-jupiter")
+    testImplementation("org.testcontainers:postgresql")
+    testImplementation("io.rest-assured:rest-assured")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
