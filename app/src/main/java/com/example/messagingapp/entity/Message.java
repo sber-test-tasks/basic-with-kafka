@@ -36,7 +36,6 @@ public class Message {
         this.status = status;
     }
 
-
     public UUID getId() {
         return id;
     }

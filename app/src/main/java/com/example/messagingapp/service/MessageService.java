@@ -16,7 +16,6 @@ import java.util.UUID;
 import java.util.logging.Logger;
 
 @Service
-@Transactional
 public class MessageService {
 
     private static final Logger logger = Logger.getLogger(MessageService.class.getName());

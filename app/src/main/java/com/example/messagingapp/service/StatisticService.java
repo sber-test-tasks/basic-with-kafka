@@ -16,7 +16,6 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Service
-@Transactional
 public class StatisticService {
 
     private static final Logger logger = Logger.getLogger(StatisticService.class.getName());

@@ -78,7 +78,6 @@ public class MessageControllerIntegrationTest {
 
     @Test
     void createMessageShouldReturnBadRequest() throws Exception {
-        // Given
         MessageRequest request = new MessageRequest(
                 UUID.fromString("123e4567-e89b-12d3-a456-426614174001"),
                 "",
